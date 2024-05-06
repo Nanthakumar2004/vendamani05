@@ -1,0 +1,121 @@
+.image1 img {
+    width: 280px;
+    height: 400px;
+    margin: 60px 0px 40px 10px;
+   
+
+
+}
+@media only screen and (max-width: 600px) {
+
+    .image1{
+        padding: auto auto auto 70px ;
+    }
+}
+
+.image1 img:hover {
+    width: 300px;
+    height: 420px;
+    background-color: red;
+    border-radius: 50%;
+    transition: 1.5s;
+    border: solid 3px none;
+    }
+
+
+.container {
+    display: flex;
+}
+
+        
+   @media only screen and (max-width: 600px) {
+
+    .container{
+        display: block;
+    }
+   }
+
+
+    
+
+.content {
+
+    padding-left: 70px;
+    padding-top: 160px;
+    color: white;
+
+
+}
+
+@media only screen and (max-width: 600px) {
+    .content{
+        padding: 20px;
+    }
+
+}
+.content h3 {
+
+    font-size: 80px;
+    text-shadow: 4px 4px 10px lightseagreen;
+}
+
+@media only screen and (max-width: 600px) {
+
+    .content h3{
+
+        padding:  10px auto auto auto;
+        
+    }
+}
+.content h4 {
+    padding-top: 20px;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    font-size: 30px;
+}
+
+
+
+
+.content p {
+
+
+    
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+
+
+
+
+}
+
+
+
+.hello{
+
+    background-image: url(circles-background-dark-tones_60389-166.avif);
+    min-height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+    
+
+
+#socialmedia img{
+
+    width: 30px;
+    height: 30px;
+    margin: 20px;
+    
+
+}
+
+   body{
+    width: 100%;
+    height: 100vh;
+}
+
+
+    
